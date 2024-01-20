@@ -4,7 +4,6 @@ import demo.domain.Pet;
 import demo.domain.Shelter;
 import demo.repository.PetRepository;
 import demo.repository.ShelterRepository;
-import demo.repository.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,8 +16,6 @@ import static demo.PetTypeEnum.CAT;
 
 @SpringBootApplication
 public class Application {
-
-	@Autowired TeamRepository teamRepository;
 
 	@Autowired PetRepository petRepository;
 
